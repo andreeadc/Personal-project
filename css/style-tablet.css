@@ -1,0 +1,208 @@
+@media (min-width: 768px) {
+	
+/*============================== NAVBAR ======================================*/
+
+	#navbar a{
+		float: left;
+	    padding-right: 30px;
+	    text-decoration: none;
+	    color: #cc6666;
+	    margin-right: 2px;
+	    border-right: solid 1px rgba(0, 0, 0, 4);
+	    font-size: 30px;
+	}
+	#navbar a:last-of-type{
+	  border-right: none;
+	}
+	#navbar a:first-of-type{
+	    margin-left:10%;
+	}
+	#navbar a:hover{
+	  color:white;
+	}
+
+	#navbar{
+		position: fixed;
+		top: 0px;
+		width: 100%;
+		padding: 1% 0% 1% 1%;
+		min-width: 30px;
+		z-index: 2;
+	}
+	
+/*================================== HOME ====================================*/
+    
+    div#start{
+	    background-image: url('image-video/phone.png');    
+	    background-size: cover;
+	    font-family: 'Josefin Sans', sans-serif;
+	    font-size: 40px;
+		height: 1024px;}
+	#start span{
+	    color:white;
+	}
+    
+    #home-info{
+        margin-left: 10%;
+        margin-top: 18%;
+    }
+    
+	#start h1{
+	    margin: 10% 5%;
+	    font-size: 70px;
+	}
+	#start h3{
+	    margin: 2% 15%;
+	    font-size: 50px;
+	}
+	#start p{
+	    margin: 0% 15%;
+	}
+/*============================ ABOUT ME =======================================*/
+
+    #AboutMe{
+        font-size: 25px;
+    }
+    #AboutMe img{
+        height: 25%;
+        border-radius: 50%; 
+        margin: 0rem 2rem;
+
+    }
+    #AboutMe #quote{
+        text-align: justify;
+        margin: 1.5rem 5rem;
+        font-size:30px;
+    }
+    #AboutMe #info{
+        margin: 0rem 1rem 3rem 1rem;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+    #AboutMe #quote p{
+        font-size: 25px;
+    }
+    
+    #AboutMe #info h4{
+        font-size: 30px;
+        margin: 1rem 2rem;
+        
+    }
+    #AboutMe h2{
+        margin-left: 8%;
+        font-size: 40px;
+    }
+    
+    #AboutMe #info p{
+        margin: 0rem 0.8rem;
+    }
+    #AboutMe #info p span{
+        font-size: 30px;
+    }
+    #AboutMe #info p:last-of-type{
+        margin-bottom:10px;
+    }
+    #AboutMe #contact {
+        position: relative;
+        bottom: 30px;
+        margin: 25% 25% 0% 25%;
+    }
+    
+    
+    /*============================ CV ONLINE =======================================*/
+    
+    .pagename h6{
+   	    margin: 0rem 19rem;
+	}
+	#image{
+		margin: 0.8rem 13.5rem;
+	}
+	#Cv-presentation p {
+    	margin: 0rem 17.5rem;
+    	font-size: 20px;
+	}
+	
+	#Cv-presentation h6 {
+   	 margin: 0rem 17.6rem 4rem;
+   	 font-size: 20px;
+	}
+	.cv-item{
+		font-size: 16px;
+	}
+	.cv-info {
+	    width: 40rem;
+	}
+	#Cv-presentation img {
+		margin: 1rem 28.5%;
+	}
+	.cv-info {
+	    font-size: 20px;
+	}
+	
+	
+/*=============================== SKILLS ======================================*/
+	
+	.img-weather {
+	    width: 280px;
+	    margin: 0% 10rem;
+	}
+	#check {
+	    margin: 0% 19rem;
+	}
+	.city {
+	    margin: 0% 14.5rem;
+	}
+	.temp {
+    	margin: 0% 17rem;
+	}
+	button {
+    	margin: 10% 10% 3% 14%;
+	}
+	
+	#pageContainer h1 {
+    	margin: 2% 12rem;
+	}
+	#exit {
+	    right: 0rem;
+	}
+	
+	#endSkill {
+	    right: 4rem;
+	}
+	
+/*================================ GENERAL ====================================*/
+	
+	div.contentBox{
+	  background: #15232e;
+	  font-size: 28px;
+	  border: #CCC 1px dashed;
+	}
+	.forScroll{
+	    height: 8%;
+	}
+	#pagename{
+	    margin: 0rem 0.5rem
+	}
+	.pull-left{ 
+	    float:left;
+	}
+	.pull-right{
+	    float: right;
+	}
+	.clearfix::after {
+	    content: "";
+	    clear: both;
+	    display: table;
+	}
+	.xl-l-screen{
+	    display: block;
+	}
+    .xs-s-screen{
+        display: none;
+    }
+
+	footer {
+		font-size: 20px;
+	    padding: 5% 30%;
+	}
+}

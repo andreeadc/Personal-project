@@ -1,0 +1,332 @@
+* {
+    margin:0 auto;
+    box-sizing: border-box;
+    padding: 0 auto;
+}
+
+/*============================== NAVBAR ======================================*/
+
+#navbar a{
+    float: left;
+    padding-right: 12.3px;
+    text-decoration: none;
+    color: #cc6666;
+    margin-right: 2px;
+    border-right: solid 1px rgba(0, 0, 0, 4);
+}
+#navbar a:last-of-type{
+    border-right: none;
+}
+#navbar a:hover{
+    color:white;
+}
+
+#navbar{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.1);
+    top: 0px;
+    width: 100%;
+    padding: 1% 0% 1% 1%;
+    min-width: 30px;
+    z-index: 2;
+}
+#navbar.scrolled {
+    background: rgb(51, 0, 17); 
+    background: rgba(53, 17, 30, 0.9);
+}
+#navbar.still{
+	background-color: rgb(51, 0, 17);
+}
+/*================================== HOME ====================================*/
+
+div#start{
+    background-image: url('image-video/phone.png');
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 731px;
+}
+#start{
+    position: relative;
+}
+
+#start h4{
+    color:white;
+}
+#start span{
+    color:white;
+}
+
+#start{
+    color:#cc6666;
+}
+#start h1{
+    margin: 10% 5%;
+}
+#start h3{
+    margin: 2% 15%;
+}
+#start p{
+    margin: 0% 15%;
+}
+
+/*============================ ABOUT ME =======================================*/
+
+#AboutMe{
+    background: linear-gradient(rgba(22,36,49,.8), rgba(22,36,49,.8)), url('image-video/skillpage.jpg');
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    color:white;
+}
+#AboutMe img{
+    height: 15%;
+    border-radius: 50%; 
+    margin: 0rem 0.6rem;
+}
+#AboutMe #quote{
+    text-align: justify;
+    margin: 1.5rem 1rem 0rem;
+}
+#AboutMe #info{
+    margin: 1.5rem 1rem;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+#AboutMe #quote p{
+    font-size: 13px;
+    margin-top:2rem;
+}
+
+#AboutMe #info h4{
+    font-size: 1.5rem;
+    margin: 1rem 2rem;
+    
+}
+#AboutMe h2{
+    margin-left: 4%;
+}
+
+#AboutMe #info p{
+    margin: 0rem 0.8rem;
+}
+#AboutMe #info p span{
+    color: #ff66b3;
+    font-size: 18px;
+}
+#AboutMe #contact {
+    position: relative;
+    bottom: 8px;
+    margin: 18% 18% 10% 18%;
+}
+
+/*============================ CV ONLINE =====================================*/
+
+#CV{
+    background: linear-gradient(rgba(22,36,49,.8), rgba(22,36,49,.8)), url('image-video/aajpg.jpg');
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size:15px;
+}
+
+#Cv-presentation img{
+    height: 30%;
+    border-radius: 50%;
+    margin: 1rem 24%;
+    filter: contrast(80%);
+}
+#Cv-presentation p{
+    margin: 0rem 6.5rem ;
+}
+#Cv-presentation h6{
+    margin: 0rem 6.4rem 2rem;
+}
+.pagename h6{
+    margin: 0rem 6.5rem ;
+}
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.cv-item{
+	border-bottom: solid 1px white;
+	width: 15rem;
+}
+.cv-item .fa-map-marker,.fa-phone,.fa-clock,.fa-envelope,.fa-github,.fa-linkedin-in{
+    margin: 0.3rem 6.7rem;
+}
+.cv-item p{
+    text-align: center;
+}
+.cv-item a{
+    text-decoration: none;
+    color:white;
+}
+.cv-info{
+	border-left: 1px white double;
+	width: 20rem;
+	margin-bottom: 4%;
+	padding-left: 1.5rem;
+}
+.cv-info h4{
+    margin-bottom: 1.5rem;
+}
+#career{
+    margin-top: 3rem;
+}
+#job-skills span{
+	color:rgb(89,174,176);
+	font-weight:bold;
+}
+
+/*=============================== SKILLS ======================================*/
+
+#Skills{
+    background: linear-gradient(rgba(22,36,49,.8), rgba(22,36,49,.8)), url('image-video/skillpage.jpg');
+    color:white;
+    font-size:20px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+#endSkill{
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+}
+.align{
+    margin: 1rem 1rem;
+}
+.pagename h2{
+    margin-left: 5%;
+}
+#weather{
+    border: solid 1px white;
+    margin: 2% 5%;
+}
+.img-weather{
+    width: 140px;
+    margin: 0% 23%;
+}
+.temp{
+    margin: 0% 37%;
+}
+.city{
+    margin: 0% 24%;
+}
+#temperature{
+    padding: 2% 5%;
+    height:auto; 
+}
+#check{
+    margin: 0% 36%;
+}
+/*JOKES*/
+#displayJoke{
+    position: relative;
+    margin-top: 3rem;
+    border: solid 1px white;
+    width: 80%;
+    padding-left: 2rem;
+    background-color: rgba(42, 9, 25, 0.5);
+}
+h4.joke-id{
+    margin-top: 3rem;
+}
+#exit{
+    position: absolute;
+        right: -3rem;
+    top:-1rem;
+    width: 4rem;
+}
+#pagecontainer {
+    margin: 2% 5%;
+    border:solid 1px white;
+}
+#pagecontainer h1{
+    margin: 2% 7%;
+}
+h3{
+     margin-bottom:20%;
+     margin-left: 15%;
+}
+button{
+    margin:10% 25% 3% 25%;
+    border-radius: 25px;
+    width:10rem;
+    background-color: rgba(42, 9, 25, 0.5);
+    border-color: rgba(42, 9, 25, 0.9);
+    color:white;
+}
+button:hover{
+    background-color: rgba(42, 9, 25, 0.9);
+}
+.joke-id{
+    margin: 2% 2%;
+}
+.joke-edit:hover{
+    background-color: rgba(42, 9, 25, 0.9);
+    color: grey;
+}
+.joke-edit{
+    border-radius: 25px;
+    background-color: rgba(42, 9, 25, 0.5);
+    border-color: rgba(42, 9, 25, 0.9);
+    margin: 5% 0%;
+    color:white;
+}
+.joke-body{
+    margin-left: 0.5rem;
+}
+.hide {
+    visibility: hidden;
+}
+#error{
+    margin:7% 2%;
+    font-size: 30px;
+    color: red;
+}  
+/*================================ GENERAL ====================================*/
+
+div.contentBox{
+    background:  #15232e; 
+    font-size: 28px;
+    border: #CCC 1px dashed;
+}
+.forScroll{
+    height: 8%;
+}
+.pagename #Skills{
+    margin: 0rem 0.5rem
+}
+.pull-left{ 
+    float:left;
+}
+.pull-right{
+    float: right;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.xl-l-screen{
+    display: none;
+}
+
+.scrolled{
+    background-color: rgba(51, 0, 17, 0.1);
+}
+
+footer{
+    background: linear-gradient(rgba(22,36,49,.8), rgba(22,36,49,.8)), url('image-video/skillpage.jpg');
+    color:white;
+    padding: 5% 20%;
+    font-size: 15px;
+}
+#footer-contact{
+    padding: 0% 20%;
+}
+a.active {
+    color:white;
+}
+

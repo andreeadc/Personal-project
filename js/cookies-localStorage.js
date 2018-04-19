@@ -4,9 +4,6 @@ function onHtmlLoaded() {
     // localStorage.setItem("temperature", "C");
     
     const cookies = getCookiesAsObject();
-
-    // variabila availableStorage e confusing: m-as astepta
-    // sa vad in ea C sau F, dar de fapt vad daca storage-ul e available
     const availableStorage = storageAvailable("localStorage") ?
     localStorage.getItem("temperature") : cookies.temperature;
 
